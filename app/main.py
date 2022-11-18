@@ -2,10 +2,11 @@
 
 
 def greeting(name: str) -> str:
-    """Возвращает текст приветствия.
+    """Returns greeting line.
+
     Args:
-    name: Имя пользователя
+    name: user name
     Returns:
-    str: Текст приветствия
+    str: greeting text
     """
     return 'Привет, name'
