@@ -2,13 +2,12 @@
 
 
 def greeting(name: str) -> str:
-    """Returns greeting line.
+    """Return greeting line.
 
     Args:
-      name:
-        user name.
+      name: User name.
 
     Returns:
-      greeting text.
+      Greeting text.
     """
     return 'Привет, name'
