@@ -12,4 +12,4 @@ def greeting(name: str) -> str:
     """
     name_capitalized = name.title()
 
-    return 'Привет, {0}'.format(name_capitalized)
+    return f'Привет, {name_capitalized}'
