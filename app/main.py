@@ -2,7 +2,7 @@
 
 
 def greeting(name: str) -> str:
-    """Return greeting line.
+    """Returns greeting line.
 
     Args:
       name:
