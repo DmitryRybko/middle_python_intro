@@ -4,10 +4,10 @@
 def greeting(name: str) -> str:
     """Return greeting line.
 
-    :param name:
-        User name.
+    Args:
+        name: User name.
 
-    :returns:
+    Returns:
         Greeting text.
     """
     return 'Привет, name'
