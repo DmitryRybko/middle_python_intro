@@ -3,7 +3,9 @@ from main import greeting
 
 
 @pytest.mark.parametrize('name,expected', [('Никита', 'Привет, Никита'),
-                                           ('Ольга', 'Привет, Ольга')])
+                                           ('Ольга', 'Привет, Ольга')
+                                           ]
+                         )
 def test_greeting(name: str, expected: str):
     """Текст приветствия зависит от имени."""
     assert greeting(name) == expected
