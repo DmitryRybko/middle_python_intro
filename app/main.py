@@ -8,6 +8,8 @@ def greeting(name: str) -> str:
         name: User name.
 
     Returns:
-        Greeting text.
+        Greeting text with name capitalized.
     """
-    return 'Привет, name'
+
+    name_capitalized = name.title()
+    return f'Привет, {name_capitalized}'
